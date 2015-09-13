@@ -160,6 +160,35 @@ gulp.task('bower', ['clean:lib'], () => {
 });
 ```
 
+#### `gulpfile.ts` TypeScript version
+
+This version is still WIP (work in progress).
+
+The project needs some modification before `gulpfile.ts` can be executed successfully.
+
+The first important change is to update `package.json` dependencies:
+```
+"typescript": "^1.5.3",
+"typescript-node": "^0.1.2",
+"typescript-register": "^1.1.0",
+"typescript-require": "^0.2.9"
+```
+
+The project uses type definitions, so it assumes that you have `tsd` tool installed globally:
+```
+npm install -g tsd
+```
+
+The restore script invokes:
+```
+npm install
+bower install
+tsd install
+```
+
+TBD
+
+
 ### Author
 
 @blazejewicz
