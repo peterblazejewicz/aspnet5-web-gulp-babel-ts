@@ -93,9 +93,8 @@ gulp.task("bower", ["clean:lib"], function() {
 
 #### `gulpfile.babel.js` ES6 version via Babel
 
-The `package.json` `devDependencies` section requires `Babel` dependencies to work with Gulp:
+The `package.json` `devDependencies` section requires `babel-core` as dependency to work with Gulp:
 ```
-"babel": "^5.8.23",
 "babel-core": "^5.8.24",
 ```
 
