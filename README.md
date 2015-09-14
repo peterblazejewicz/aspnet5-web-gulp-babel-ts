@@ -1,6 +1,11 @@
 # ASP.NET 5 Web Application (basic) with Gulp script in ES5, ES6 (Babel) and TypeScript
 
-A web application templates from `generator-aspnet` with Gulp tasks written in TypeSript and ES6 via Babel
+A web application templates from `generator-aspnet` with Gulp tasks rewritten in TypeSript and ES6 via Babel.
+From the developer view, there is no difference in using Gulp, one could just type `gulp clean` and does not care about internal implementation (ES5, ES6 or TypeScript).
+
+Note that to support multiple implementations the Gulp needs to be at least in `3.9.0` version:
+
+[https://github.com/gulpjs/gulp/releases/tag/v3.9.0](https://github.com/gulpjs/gulp/releases/tag/v3.9.0)
 
 ## Running
 
