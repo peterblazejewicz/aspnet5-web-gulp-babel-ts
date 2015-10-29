@@ -1,4 +1,5 @@
 /// <binding Clean='clean' />
+'use strict';
 /* jshint node: true */
 /* jshint esnext: true */
 import gulp from 'gulp';
