@@ -18,7 +18,7 @@ namespace WebApplicationBasic
             // Setup configuration sources.
             var builder = new ConfigurationBuilder()
                 .SetBasePath(appEnv.ApplicationBasePath)
-                .AddJsonFile("appsettings.json")
+                .AddJsonFile("appsettings.json");
             Configuration = builder.Build();
         }
 
