@@ -1,4 +1,4 @@
 {
-  "only": "gulpfile.babel.js",
-  "retainLines": true
+  "presets": ["es2015"],
+  "plugins": ["transform-es2015-modules-commonjs"]
 }
