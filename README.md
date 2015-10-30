@@ -9,7 +9,7 @@ Note that to support multiple implementations the Gulp needs to be at least in `
 
 ## Running
 
-The project are created and authored with `beta7` version of ASP.NET 5 tooling. The originally scaffolded content is based on `generator-aspnet` `Web Application Basic` web application template.
+The project are created and authored with `beta8` version of ASP.NET 5 tooling. The originally scaffolded content is based on `generator-aspnet` `Web Application Basic` web application template.
 
 To run each example just invoke from example directory:
 ```
