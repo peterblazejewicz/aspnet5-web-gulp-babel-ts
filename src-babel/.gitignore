@@ -207,3 +207,6 @@ FakesAssemblies/
 
 # web root client deps
 wwwroot/lib
+
+# TypeScript
+typings
