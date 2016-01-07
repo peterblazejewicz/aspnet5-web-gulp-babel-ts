@@ -5,26 +5,23 @@
   "path": "typings",
   "bundle": "typings/tsd.d.ts",
   "installed": {
-    "gulp/gulp.d.ts": {
-      "commit": "7a3ca1f0b8a0960af9fc1838f3234cc9d6ce0645"
-    },
-    "q/Q.d.ts": {
-      "commit": "7a3ca1f0b8a0960af9fc1838f3234cc9d6ce0645"
-    },
-    "orchestrator/orchestrator.d.ts": {
-      "commit": "7a3ca1f0b8a0960af9fc1838f3234cc9d6ce0645"
+    "jquery/jquery.d.ts": {
+      "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
     },
     "node/node.d.ts": {
-      "commit": "7a3ca1f0b8a0960af9fc1838f3234cc9d6ce0645"
+      "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
     },
-    "rimraf/rimraf.d.ts": {
-      "commit": "7a3ca1f0b8a0960af9fc1838f3234cc9d6ce0645"
+    "del/del.d.ts": {
+      "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
     },
-    "gulp-concat/gulp-concat.d.ts": {
-      "commit": "7a3ca1f0b8a0960af9fc1838f3234cc9d6ce0645"
+    "minimatch/minimatch.d.ts": {
+      "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
     },
-    "gulp-uglify/gulp-uglify.d.ts": {
-      "commit": "7a3ca1f0b8a0960af9fc1838f3234cc9d6ce0645"
+    "glob/glob.d.ts": {
+      "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
+    },
+    "es6-promise/es6-promise.d.ts": {
+      "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
     }
   }
 }

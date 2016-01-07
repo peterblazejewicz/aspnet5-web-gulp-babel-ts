@@ -206,4 +206,7 @@ FakesAssemblies/
 *.opt
 
 # TypeScript definitions that can be installed via TSD
-typings/
+typings
+
+# clientside
+wwwroot/lib
